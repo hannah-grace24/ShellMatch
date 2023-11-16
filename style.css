@@ -1,3 +1,4 @@
+/*index*/
 .title {
     text-align:center;
     font-family:Ink Free;
@@ -9,4 +10,8 @@
     display: block;
     margin-left:auto;
     margin-right:auto;
+}
+
+.buttonbox {
+    font-size: 200px;
 }
