@@ -13,5 +13,62 @@
 }
 
 .buttonbox {
-    font-size: 200px;
+    font-size: 50px;
 }
+
+
+
+
+.image-center {
+            position: relative;
+          }
+          .image-center:after {
+            display: inline-block;
+            padding-bottom: 100%;
+            content: "";
+          }
+          .image-center img {
+            position: absolute;
+            bottom: 500px;
+            left: 0;
+            right: 0;
+            top: 2px;
+            margin: auto;
+            width: auto;
+            height: auto;
+            max-width: 70%;
+            max-height: 70%;
+          }
+
+.btn {
+    background-color:#C3A5A2;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+}
+
+
+          
+            .thisorthat{
+                height: 200px;
+                position: relative;
+               
+              }
+              
+              .btn-btn-info {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+              }
+
+                
+                    #click:active {
+                        content:x;
+                }
+          
+                .btn btn-info:active {
+                        background-color: black;
+                }
