@@ -6,7 +6,6 @@
 }
 .carousel {
     width:800px;
-    height:790px;
     display: block;
     margin-left:auto;
     margin-right:auto;
@@ -15,20 +14,16 @@
 .buttonbox {
     font-size: 50px;
 }
-
-
-
+.goal-mission {
+  text-align:center;
+}
+.index-images {
+  
+}
 
 .image-center {
-            position: relative;
-          }
-          .image-center:after {
-            display: inline-block;
-            padding-bottom: 100%;
-            content: "";
-          }
-          .image-center img {
-            position: absolute;
+            display:block;
+            text-align:center;
             bottom: 500px;
             left: 0;
             right: 0;
@@ -40,7 +35,7 @@
             max-height: 70%;
           }
 
-.btn {
+.join {
     background-color:#C3A5A2;
     display: block;
     margin-left:auto;
@@ -52,8 +47,8 @@
           
             .thisorthat{
                 height: 200px;
-                position: relative;
-               
+                display: inline-block;
+                margin: 0 auto;
               }
               
               .btn-btn-info {
@@ -72,3 +67,14 @@
                 .btn btn-info:active {
                         background-color: black;
                 }
+
+                .btn-btn-success{
+                    background-color: gray;
+                }
+                
+
+              .buttonbox{
+                color: aliceblue;
+              }
+
+              

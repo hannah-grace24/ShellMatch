@@ -1,22 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<style>
-</style>
-<script src=""></script>
-<body>
-
-
-
-
-
+<html>
+  <head>
+    <title>SlowChat</title>
+    <link rel="stylesheet" href="chatstyle.css" />
     
 
+    <!-- Import this CDN to use icons -->
+    <link
+      rel="stylesheet"
+            
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+ 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+      crossorigin="anonymous"
+    />
+  </head>
 
+  <body>
+    <nav class="navbar navbar-expand">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="snail" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbeGmNFxQ6XKybf8FJTOwWq-wYMP6J0oI55ikUKdGP9xytfphP" alt="Bootstrap">
+            </a>
+            <div class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="survey.html">Survey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shellmatches.html">ShellMatches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="slowchat.html">SlowChat</a>
+                    </li>                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main container -->
+    <div class="container">
+      <!-- msg-header section starts -->
+      <div class="msg-header">
+        <div class="container1">
+          <img src="https://content.mycutegraphics.com/graphics/snail/cute-snail.png" class="msgimg" />
+          <div class="active">
+            <p>Garry</p>
+          </div>
+        </div>
+      </div>
+      <!-- msg-header section ends -->
 
+      <!-- Chat inbox  -->
+      <div class="chat-page">
+        <div class="msg-inbox">
+          <div class="chats">
+            <!-- Message container -->
+            <div class="msg-page">
+              <!-- Incoming messages -->
 
-</body>
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <img src="https://classroomclipart.com/image/static2/preview2/cartoon-style-smiling-happy-snail-clipart-26376.jpg" />
+                </div>
+                <div class="received-msg">
+                  <div class="received-msg-inbox">
+                    <p>
+                      Hi!! This is message from Riya . Lorem ipsum, dolor sit
+                      amet consectetur adipisicing elit. Non quas nemo eum,
+                      earum sunt, nobis similique quisquam eveniet pariatur
+                      commodi modi voluptatibus iusto omnis harum illum iste
+                      distinctio expedita illo!
+                    </p>
+                    <span class="time">18:06 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Outgoing messages -->
+              <div class="outgoing-chats">
+                <div class="outgoing-chats-img">
+                  <img src="https://content.mycutegraphics.com/graphics/snail/cute-snail.png" />
+                </div>
+                <div class="outgoing-msg">
+                  <div class="outgoing-chats-msg">
+                    <p class="multi-msg">
+                      Hi riya , Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo nobis deleniti earum magni
+                      recusandae assumenda.
+                    </p>
+                    <p class="multi-msg">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </p>
+
+                    <span class="time">18:30 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <img src="https://classroomclipart.com/image/static2/preview2/cartoon-style-smiling-happy-snail-clipart-26376.jpg" />
+                </div>
+                <div class="received-msg">
+                  <div class="received-msg-inbox">
+                    <p class="single-msg">
+                      Hi !! This is message from John Lewis. Lorem ipsum, dolor
+                      sit amet consectetur adipisicing elit. iste distinctio
+                      expedita illo!
+                    </p>
+                    <span class="time">18:31 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="outgoing-chats">
+                <div class="outgoing-chats-img">
+                  <img src="https://content.mycutegraphics.com/graphics/snail/cute-snail.png" />
+                </div>
+                <div class="outgoing-msg">
+                  <div class="outgoing-chats-msg">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Velit, sequi.
+                    </p>
+
+                    <span class="time">18:34 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- msg-bottom section -->
+
+          <div class="msg-bottom">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Write message..."
+              />
+              <span class="input-group-text send-icon">
+                <i class="bi bi-send"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKT3vzZlgGhyr-Anr5oHH84wdfR7Z78uRkiQ&usqp=CAU" alt="Avatar" class="avatar">
+    </div>
+  </body>
 </html>
