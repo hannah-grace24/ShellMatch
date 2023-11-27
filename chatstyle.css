@@ -268,3 +268,8 @@ received-chats-img {
     height: 50px;
     border-radius: 50%;
   }
+  .title {
+    text-align:center;
+    font-family:Ink Free;
+    background-color:#C3A5A2;
+}
