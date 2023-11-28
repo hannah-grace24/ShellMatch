@@ -17,6 +17,7 @@
 .goal-mission {
   text-align:center;
 }
+
 .index-images {
   
 }
@@ -79,6 +80,85 @@
               .buttonbox{
                 color: aliceblue;
                 font-style: italic;
+                font-weight: 600;
               }
+
+              .container2{
+                padding-top: 50px;
+                padding-right: 80px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                text-align: center;
+              
+               
+              }
+
+              
+
+              .intro{
+                background-color: lightslategray;
+                color:white;
+                padding: 15px;
+                
+                
+              }
+
+              .container3{
+                width: 1500px;
+                margin: 0 auto;
+              }
+
+              .thisorthat{
+                width: 900px;
+                margin: 0 auto;
+                
+              }
+
+              .clickon{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: underline;
+              }
+
+              #mytable{
+                background-color:pink;
+              }
+
+              .button1{
+                border-radius: 50%;
+                background-color: black;
+                color: aliceblue;
+                width: 100px;
+                height: 100px;
+                align-items: center;
+              }
+
+              .button1 :active{
+                background-color:white;
+                color:black;
+              }
+
+              .button2{
+                background-color: rosybrown;
+                color: black;
+                width: 200px;
+                height: 100px;
+                padding: 20px;
+                font-size: large;
+               
+               
+              }
+
+              .button3{
+                background-color: slategrey;
+                color:white;
+                width: 200px;
+                height: 100px;
+                padding: 20px;
+                font-size: large;
+               
+                
+              }
+
+
 
               
