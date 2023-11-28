@@ -42,9 +42,12 @@
     margin-right:auto;
     margin-top:5px;
 }
-
-
-          
+.profile-title {
+  text-align: center;
+}
+ .profile-item  {
+  Background-color:#DDB9B1;
+ }   
             .thisorthat{
                 height: 200px;
                 display: inline-block;
