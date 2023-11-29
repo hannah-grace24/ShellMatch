@@ -48,7 +48,10 @@
 }
  .profile-item  {
   Background-color:#DDB9B1;
- }   
+ }
+.comment {
+  background-color: #DDB9B1;
+}
             .thisorthat{
                 height: 200px;
                 display: inline-block;
