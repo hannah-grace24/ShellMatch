@@ -1,4 +1,4 @@
-/*index*/
+/*start of index*/
 .title {
     text-align:center;
     font-family:Ink Free;
@@ -11,9 +11,7 @@
     margin-right:auto;
 }
 
-.buttonbox {
-    font-size: 50px;
-}
+
 .goal-mission {
   text-align:center;
 }
@@ -43,6 +41,10 @@
     margin-right:auto;
     margin-top:5px;
 }
+/*end of index*/
+
+
+/*start of profile*/
 .profile-title {
   text-align: center;
 }
@@ -65,102 +67,136 @@
                 -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
               }
+ }   
+/*end of profile*/
 
-                
-                    #click:active {
-                        content:x;
-                }
+
+ /* start of survey*/
+.thisorthat{
+  height: 200px;
+  display: inline-block;
+  margin: 0 auto;              
+}               
+              
+.btn-btn-info {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
           
-                .btn btn-info:active {
-                        background-color: black;
-                }
+.btn btn-info:active {
+  background-color: black;
+}
 
-                .btn-btn-success{
-                    background-color: gray;
-                }
-                
+.btn-btn-success{
+  background-color: gray;
+}                
 
-              .buttonbox{
-                color: aliceblue;
-                font-style: italic;
-                font-weight: 600;
-              }
+.buttonbox{
+  color: aliceblue;
+  font-style: italic;
+  font-weight: 600;
+}
 
-              .container2{
-                padding-top: 50px;
-                padding-right: 80px;
-                padding-bottom: 50px;
-                padding-left: 80px;
-                text-align: center;
-              
-               
-              }
-
+.container2{
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+}              
               
 
-              .intro{
-                background-color: lightslategray;
-                color:white;
-                padding: 15px;
-                
-                
-              }
+.buttonbox {
+  font-size: 50px;
+}
+              
 
-              .container3{
-                width: 1500px;
-                margin: 0 auto;
-              }
+.intro{
+  background-color: rgb(147, 170, 194);
+  color:white;
+  padding: 15px;
+}
 
-              .thisorthat{
-                width: 900px;
-                margin: 0 auto;
-                
-              }
+.container3{
+  width: 1500px;
+  margin: 0 auto;
+}
 
-              .clickon{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                text-decoration: underline;
-              }
+.thisorthat{
+  width: 900px;
+  margin: 0 auto;
+}              
 
-              #mytable{
-                background-color:pink;
-              }
+.clickon{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;                            
+}
 
-              .button1{
-                border-radius: 50%;
-                background-color: black;
-                color: aliceblue;
-                width: 100px;
-                height: 100px;
-                align-items: center;
-              }
+#mytable{
+  background-color:pink;
+}
 
-              .button1 :active{
-                background-color:white;
-                color:black;
-              }
+.button1{
+  border-radius: 50%;
+  background-color: black;
+  color: aliceblue;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
 
-              .button2{
-                background-color: rosybrown;
-                color: black;
-                width: 200px;
-                height: 100px;
-                padding: 20px;
-                font-size: large;
-               
-               
-              }
+button.button1:hover{
+  color: black;
+  background-color: #DDB9B1;
+}
 
-              .button3{
-                background-color: slategrey;
-                color:white;
-                width: 200px;
-                height: 100px;
-                padding: 20px;
-                font-size: large;
-               
-                
-              }
+button.button1:active{
+ background-color: white;
+ color: black;
+}
+
+button.button1:active {
+  animation: changecolors .5s forwards;
+}
+
+
+
+
+.button2{
+  background-color: rosybrown;
+  color: black;
+  width: 200px;
+   height: 100px;
+  padding: 20px;
+  font-size: large;             
+}
+
+.button3{
+  background-color: rgb(189, 189, 202);
+  color:white;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  font-size: large;
+}
+
+#buttonbox{
+    width: 900px;
+}   
+
+.tottitle{
+  font-family: cursive;
+  color: dimgray;
+}
+
+
+
+/*end of survey*/
+
 
 
 
