@@ -51,6 +51,10 @@
  .profile-item  {
   Background-color:#DDB9B1;
  }
+ .profile-snail{
+  width:300px;
+  height:250px;
+ }
 .comment {
   background-color: #DDB9B1;
 }
