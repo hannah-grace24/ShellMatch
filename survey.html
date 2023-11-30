@@ -87,8 +87,64 @@
     </div>
     <br>
     <br>
+
+
+
+    - const COUNT = 360 / 6
+mixin button(className)
+  button.button(class=className)
+    span.button__text Love
+    span.button__icon
+      span.heart__particles
+        - let p = 0
+        while p < COUNT
+          span.heart__particle
+          - p++
+      svg.heart.heart--stroke(viewBox="0 0 24 24")
+        path(d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z")
+      svg.heart.heart--fill(viewBox="0 0 24 24")
+        path(d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z")
+
++button('button--primary')
++button('button--secondary')
+
+<script>
+
+
+const random = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const COUNT = 360 / 6;
+const BTN = document.querySelectorAll(".button");
+
+const setParticles = b => {
+  const PARTICLES = b.querySelectorAll('.heart__particle')
+  PARTICLES.forEach((particle, index) => {
+    const CHARACTER = {
+      "--d": random(30, 60),
+      "--r": (360 / 25) * index,
+      "--h": random(0, 360),
+      "--t": random(25, 50) / 100,
+      "--s": random(20, 60) / 100
+    };
+    particle.setAttribute(
+      "style",
+      JSON.stringify(CHARACTER)
+        .replace(/,/g, ";")
+        .substring(1, JSON.stringify(CHARACTER).length - 1)
+        .replace(/"/g, "")
+    );        
+  })
+}
+
+
+BTN.forEach((b) => {
+  setParticles(b)
+  b.addEventListener("click", () => {
+    b.classList.toggle('button--active')
+    if (b.classList.contains('button--active')) setParticles(b)
+  })
+});
     
-    
+    </script>
    
 
    
