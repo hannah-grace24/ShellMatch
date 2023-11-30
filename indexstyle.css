@@ -1,0 +1,54 @@
+/*start of index*/
+.title {
+    text-align:center;
+    font-family:Ink Free;
+    background-color:#C3A5A2;
+}
+.carousel {
+    width:800px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.goal-mission {
+  text-align:center;
+}
+
+.index-images {
+  
+}
+
+.image-center {
+            display:block;
+            text-align:center;
+            bottom: 500px;
+            left: 0;
+            right: 0;
+            top: 2px;
+            margin: auto;
+            width: auto;
+            height: auto;
+            max-width: 70%;
+            max-height: 70%;
+          }
+
+.join {
+    background-color:#C3A5A2;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+}
+/*end of index*/
+
+
+
+
+ 
+
+
+
+
+              
