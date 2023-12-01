@@ -9,7 +9,16 @@
 #option{
     width: 80%;
 }
-
+.navbar {
+    background-color: #C3A5A2;
+  }
+  .title {
+    font: size 400px;
+  }
+  .snail {
+    height:50px;
+    width:50px;
+  }
 
 
 

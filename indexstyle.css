@@ -2,23 +2,29 @@
 .title {
     text-align:center;
     font-family:Ink Free;
-    background-color:#C3A5A2;
-}
-.carousel {
-    width:800px;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
+    background-color:#c4b0b0;
+    font: size 400px;
 }
 
-
+.navbar {
+  background-color:#c4b0b0;
+}
+.title {
+  font: size 400px;
+}
+.snail {
+  height:50px;
+  width:50px;
+}
 .goal-mission {
   text-align:center;
 }
 .comment{
-  background-color: #C3A5A2;
+  background-color: #c4b0b0;
 }
-
+.goal-mission {
+  background-color: #c4b0b0;
+}
 .image-center {
             display:block;
             text-align:center;
@@ -41,6 +47,9 @@
     margin-top:5px;
 }
 /*end of index*/
+body {
+  background-color:#e0d8d8 ;
+}
 
 
 
