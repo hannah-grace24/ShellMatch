@@ -5,12 +5,14 @@
     background-color:#c4b0b0;
     font: size 400px;
 }
-
 .navbar {
   background-color:#c4b0b0;
 }
-.title {
-  font: size 400px;
+button {
+  border-radius:8px;
+  border-color: #C3A5A2;
+  height:50px;
+  width:150px;
 }
 .snail {
   height:50px;
@@ -21,8 +23,15 @@
 }
 .comment{
   background-color: #c4b0b0;
+  height:250px;
+  width:300px;
+  font-size: 20px;
+  text-align: center;
 }
-.goal-mission {
+.about-us1 {
+  background-color: #c4b0b0;
+}
+.our-mission1 {
   background-color: #c4b0b0;
 }
 .image-center {
@@ -51,9 +60,34 @@ body {
   background-color:#e0d8d8 ;
 }
 .jane {
-  height:
+  height:250px;
+  width:300px;
 }
-
+.gerald-pic {
+  height:250px;
+  width:300px;
+}
+.lucy {
+  height:250px;
+  width:300px;
+}
+.nick {
+  height:250px;
+  width:300px;
+}
+.jane-container {
+  margin-right: 100px;
+}
+.d-block {
+  height:500px;
+  width:600px;
+}
+h3 {
+  text-align:center;
+  font-family:Ink Free;
+  background-color:#c4b0b0;
+  font: size 400px;
+}
 
 
  
