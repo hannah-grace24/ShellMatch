@@ -88,9 +88,15 @@ h3 {
   background-color:#c4b0b0;
   font: size 400px;
 }
-
-
- 
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-color:#c4b0b0;
+    height: 350px;
+  }
+ .logo {
+  Height:300px;
+  width:300px;
+ }
 
 
 
