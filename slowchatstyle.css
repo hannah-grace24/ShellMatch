@@ -1,5 +1,22 @@
-/*avatars under message*/
+#main-pro{
+    height: 200px;
+    width: 200px;
+    
+}
 
+
+
+
+
+
+
+
+
+.main-title {
+    text-align:center;
+    font-family:Ink Free;
+    background-color: #C3A5A2;
+}
 
 .profile-item{
     background:rgb(189, 189, 202);
@@ -19,10 +36,6 @@
     height:50px;
     width:50px;
   }
-
-
-
-
 
 /*↓ ↓ Message Box↓ ↓ ↓*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -288,11 +301,6 @@ received-chats-img {
     }
 }
 
-.title {
-    text-align:center;
-    font-family:Ink Free;
-    background-color:#C3A5A2;
-}
 
 
 .contact{
