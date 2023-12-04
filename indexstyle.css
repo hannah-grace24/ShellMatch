@@ -97,7 +97,10 @@ h3 {
   Height:300px;
   width:300px;
  }
-
+.hero-image {
+  background-color: #c4b0b0;
+  text-align:center;
+}
 
 
 
