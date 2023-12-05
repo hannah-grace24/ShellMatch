@@ -1,7 +1,8 @@
 #main-pro{
-    height: 200px;
-    width: 200px;
-    
+    height: 300px;
+    width: 300px;
+    border-radius: 0%;
+    margin: auto;
 }
 
 
@@ -301,13 +302,27 @@ received-chats-img {
     }
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
-.contact{
-    margin-top: 5%;
-    text-align: left;
+hr{
+    padding:5px;
 }
 
-.social{
-    text-align: right;
+
+
+.col-6{
+    height: 100px;
 }
