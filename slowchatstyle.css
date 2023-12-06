@@ -11,8 +11,6 @@
 
 
 
-
-
 .main-title {
     text-align:center;
     font-family:Ink Free;
@@ -21,6 +19,7 @@
 
 .profile-item{
     background:rgb(189, 189, 202);
+    padding: 10px;
    
 }
 
@@ -306,7 +305,7 @@ received-chats-img {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
   
   /* Clear floats after the columns */
@@ -314,15 +313,17 @@ received-chats-img {
     content: "";
     display: table;
     clear: both;
-  }
-
+ }
 
 hr{
     padding:5px;
 }
 
-
-
-.col-6{
-    height: 100px;
+.contact1{
+    margin-left: 180px;
 }
+
+.social1{
+    margin-right: 30px
+}
+
