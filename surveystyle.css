@@ -348,5 +348,7 @@ body
       }
     }
   }
-  
+.check-box {
+  margin-left:5px;
+}
   /*end of survey*/
