@@ -4,6 +4,7 @@
     font-family:Ink Free;
     background-color:#c4b0b0;
     font: size 400px;
+    font-weight: bolder;
 }
 .navbar {
   background-color:#c4b0b0;
@@ -20,6 +21,7 @@ button {
 }
 .goal-mission {
   text-align:center;
+  font-size: large;
 }
 .comment{
   background-color: #c4b0b0;
@@ -30,6 +32,7 @@ button {
 }
 .about-us1 {
   background-color: #c4b0b0;
+
 }
 .our-mission1 {
   background-color: #c4b0b0;
@@ -54,6 +57,7 @@ button {
     margin-left:auto;
     margin-right:auto;
     margin-top:5px;
+    font-size:medium;
 }
 /*end of index*/
 body {
@@ -86,7 +90,8 @@ h3 {
   text-align:center;
   font-family:Ink Free;
   background-color:#c4b0b0;
-  font: size 400px;
+  font-size:x-large;
+  font-weight: bolder;
 }
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -101,7 +106,25 @@ h3 {
   background-color: #c4b0b0;
   text-align:center;
 }
-
-
-
-              
+.hero-text {
+  font-size:x-large;
+}
+.hero-title {
+  font-size:xx-large;
+  font-family:Ink Free;
+  font-weight: bolder;
+}
+.btn {
+  height:30px;
+  width:100px;
+  background-color:#e0d8d8;
+  color:black;
+}
+.nav-link {
+  font-size:large;
+  font-weight: bolder;
+}     
+.myCarousel {
+  height:700px;
+  width:800px;
+}
