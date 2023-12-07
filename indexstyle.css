@@ -2,24 +2,41 @@
 .title {
     text-align:center;
     font-family:Ink Free;
-    background-color:#C3A5A2;
+    background-color:#c4b0b0;
+    font: size 400px;
+    font-weight: bolder;
 }
-.carousel {
-    width:800px;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
+.navbar {
+  background-color:#c4b0b0;
 }
-
-
+button {
+  border-radius:8px;
+  border-color: #C3A5A2;
+  height:50px;
+  width:150px;
+}
+.snail {
+  height:50px;
+  width:50px;
+}
 .goal-mission {
   text-align:center;
+  font-size: large;
 }
-
-.index-images {
-  
+.comment{
+  background-color: #c4b0b0;
+  height:250px;
+  width:300px;
+  font-size: 20px;
+  text-align: center;
 }
+.about-us1 {
+  background-color: #c4b0b0;
 
+}
+.our-mission1 {
+  background-color: #c4b0b0;
+}
 .image-center {
             display:block;
             text-align:center;
@@ -40,15 +57,74 @@
     margin-left:auto;
     margin-right:auto;
     margin-top:5px;
+    font-size:medium;
 }
 /*end of index*/
-
-
-
-
- 
-
-
-
-
-              
+body {
+  background-color:#e0d8d8 ;
+}
+.jane {
+  height:250px;
+  width:300px;
+}
+.gerald-pic {
+  height:250px;
+  width:300px;
+}
+.lucy {
+  height:250px;
+  width:300px;
+}
+.nick {
+  height:250px;
+  width:300px;
+}
+.jane-container {
+  margin-right: 100px;
+}
+.d-block {
+  height:500px;
+  width:600px;
+}
+h3 {
+  text-align:center;
+  font-family:Ink Free;
+  background-color:#c4b0b0;
+  font-size:x-large;
+  font-weight: bolder;
+}
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-color:#c4b0b0;
+    height: 350px;
+  }
+ .logo {
+  Height:300px;
+  width:300px;
+ }
+.hero-image {
+  background-color: #c4b0b0;
+  text-align:center;
+}
+.hero-text {
+  font-size:x-large;
+}
+.hero-title {
+  font-size:xx-large;
+  font-family:Ink Free;
+  font-weight: bolder;
+}
+.btn {
+  height:30px;
+  width:100px;
+  background-color:#e0d8d8;
+  color:black;
+}
+.nav-link {
+  font-size:large;
+  font-weight: bolder;
+}     
+.myCarousel {
+  height:700px;
+  width:800px;
+}

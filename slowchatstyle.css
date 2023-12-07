@@ -1,19 +1,41 @@
-/*avatars under message*/
+#main-pro{
+    height: 300px;
+    width: 300px;
+    border-radius: 0%;
+    margin: auto;
+}
 
+
+
+
+
+
+
+.main-title {
+    text-align:center;
+    font-family:Ink Free;
+    background-color: #C3A5A2;
+}
 
 .profile-item{
     background:rgb(189, 189, 202);
+    padding: 10px;
    
 }
 
 #option{
     width: 80%;
 }
-
-
-
-
-
+.navbar {
+    background-color: #C3A5A2;
+  }
+  .title {
+    font: size 400px;
+  }
+  .snail {
+    height:50px;
+    width:50px;
+  }
 
 /*↓ ↓ Message Box↓ ↓ ↓*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -279,9 +301,29 @@ received-chats-img {
     }
 }
 
-.title {
-    text-align:center;
-    font-family:Ink Free;
-    background-color:#C3A5A2;
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+hr{
+    padding:5px;
+}
+
+.contact1{
+    margin-left: 180px;
+}
+
+.social1{
+    margin-right: 30px
 }
 

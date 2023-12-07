@@ -1,18 +1,26 @@
 <!doctype html>
 <html lang="en">
     <head>
+      <!-- Favicon -->
+      <link href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbeGmNFxQ6XKybf8FJTOwWq-wYMP6J0oI55ikUKdGP9xytfphP" rel="icon">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ShellMatch</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="indexstyle.css">
     </head>
     <body>
-       <h1 class="title">ShellMatch</h1>
         <nav class="navbar navbar-expand">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img class="snail" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbeGmNFxQ6XKybf8FJTOwWq-wYMP6J0oI55ikUKdGP9xytfphP" alt="Bootstrap" width="100" height="100">
+                    Home
                 </a>
                 <div class="navbar">
                     <ul class="navbar-nav">
@@ -30,32 +38,114 @@
                         </li>                        
                     </ul>
                 </div>
+              </div>
             </div>
         </nav>
-        <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="https://th.bing.com/th/id/OIP.60cxOqpJ9csO68EgJHCwqwHaFf?w=268&h=199&c=7&r=0&o=5&pid=1.7">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/pic_1.png">
-              </div>
-              <div class="carousel-item">
-                <img  class="d-block w-100" src="img/pic_2.png">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+        <div class="hero-image">
+          <div class="hero-text">
+            <br>
+            <h1 class="hero-title">ShellMatch</h1>
+            <br>
+            <p class="hero-text">Our mission is to help all the snails in the world find love!</p>
+            <br>
+            <a href="Profile.html" class="btn btn-secondary" role="button">Sign Up</a>
+          </div>
         </div>
+        <br>
+        <br>
+     <!-- Carousel -->
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+      <div class="item active">
+          <center><img src="img/pic_1.png"></center>
+      </div>  
+      <div class="item">
+          <center><img src="img/pic_2.png"></center>
+      </div> 
+      <div class="item">
+          <center><img src="img/img_4.png"></center>
+      </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+      </a>
+  </div>
+    
+    <br>
+    <h1 class="title">Reviews</h1>
+    <br>
+    <br>
+    <div class="container-fluid gerald-container">
+      <div class="row">
+        <div class="col-lg-3 gerald-pic">
+          <img src="https://th.bing.com/th?id=OIP.WtsbQ7E1wUGnE48dNBgmGAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+        </div>
+        <div class="col-lg-3 reviews">
+          <p class="comment">
+            "Hi my name is Gerald and I owe my marriage to this app! I met my beautiful wife Margret on this website.
+            This website helped me find the love of my life and I recommend all snails to use this website to find love.
+            Definately 5 stars!!!"
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lucy" src="img/pic_3.png">
+        </div>
+        <div class="col-lg-3">
+          <p class="comment">
+            "Hi! I'm Lucy and I absolutely LOVE ShellMatch!
+            It has completely changed my life.
+            I met my boyfriend of 3 years on this website, and I couldn't be more happy!
+            I can't wait to continue my life with my wonderful boyfriend.
+            All my thanks go to ShellMatch."
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid jane-container">
+      <div class="row">
+        <div class="col-lg-3">
+          <p class="comment">
+            "My name is Nick.
+            I found love on ShellMatch, and it is the most amazing thing to ever happen to me.
+            My wife is the most amazing, beautiful snail in the world.
+            ShellMatch led me to the love of my life, and I am so grateful!.
+            Everyone should use ShellMatch!"
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="nick" src="img/pic_4.png">
+        </div>
+        <div class="col-3">
+          <p class="comment jane-comment">
+            "Hi my name is Jane and this app led me to my fiancee Nick.
+            ShellMatch allowed me to connect with the snail of my dreams!
+            Nick is everything I've ever wanted and I have this website to thank for it.
+            Nick and I are getting married in August!"
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="jane" src="https://th.bing.com/th/id/OIP.nc5jeYx75KdY_uOHutye0wHaFB?w=279&h=188&c=7&r=0&o=5&pid=1.7">
+        </div>
+      </div>
+    </div> 
           <br>
+          </div class="container-fluid">
+            <button class="join" type="button" class="btn">Join our Team</button>
+          </div>
           <br>
-          <div class="container index-images">
+          <div class="container-fluid index-images">
             <div class="row">
                 <div class="col-6 image-center border border-secondary p-3">
                   <img src="https://th.bing.com/th/id/OIP.7jqbH9Pd8okuGWNZN3uLqAHaHa?w=199&h=199&c=7&r=0&o=5&pid=1.7">
@@ -67,55 +157,32 @@
           </div>
           <br>
           <br>
-          <div class="container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <h3>About Us</h3>
+              </div>
+              <div class="col-6">
+                <h3>Our Mission</h3>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
             <div class="row goal-mission">
               <div class="col-6 about-us">
-                <p>We hold snails deep in our hearts and we are passionate about helping them find love. 
+                <p class="about-us1">We hold snails deep in our hearts and we are passionate about helping them find love. 
                   We think snails are amazing creatures and they deserve to find love just like us. 
                   To us, snails are more than just bugs and we hope the rest of the world can see that. 
                   We had this idea to help snails find love while walking early in the morning and we saw a lonley snail scooting across the sidewalk. 
                   This sparked a fire in our hearts to help all the snails of the world not have to cross the sidewalks alone.</p>
               </div>
               <div class="col-6 our-mission">
-                <p>Our goal in making this website is to bring love to all the lonley snails of the world.
+                <p class="our-mission1">Our goal in making this website is to bring love to all the lonley snails of the world.
                   We want the snails using our website to find love like us humans find love.
                   When we came up with the idea to create ShellMatch we emphasized the snails ability to find love.
                   Our goal is to allow all snails of all kinds to find love and be able to share a life full of love with thier ShellMate.
                   We have made it our mission to make it possible for all the lonely snails in the world to find the love they have been longing for their whole life.
             </div>
-          </div>
-          <br>
-          <br>
-          <button class="join" type="button" class="btn btn-basic">Join our Team</button>
-          <br>
-          <br>
-          <br>
-          <div class="container">
-            <div class="row goal-mission">
-              <div class="col-3">
-                <img src="https://th.bing.com/th?id=OIP.WtsbQ7E1wUGnE48dNBgmGAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
-              </div>
-              <div class="col-3">
-                <p class="comment">
-                  "Hi my name is Gerald and I owe my marriage to this app! I met my beautiful wife margret on this website.
-                  This website helped me find the love of my life and I recommend all snails to use this website to find love.
-                  Definately 5 stars!!!"
-                </p>
-              </div>
-              <div class="col-3">
-                <img src="https://th.bing.com/th/id/OIP.nc5jeYx75KdY_uOHutye0wHaFB?w=279&h=188&c=7&r=0&o=5&pid=1.7">
-              </div>
-              <div class="col-3">
-                <p class="comment">
-                  "Hi my name is Jane and This app led me to my fiancee Nick.
-                  ShellMatch allowed me to connect with the snail of my dreams!
-                  Nick is everything I've ever wanted and I have this website to thank for it.
-                  Nick and I are getting married in August this year!"
-                </p>
-              </div>
-            </div>
-
-          </div>
           
        
 
