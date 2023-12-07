@@ -342,8 +342,22 @@ border: 1px dotted #fff;
 
 }
 
-
-
+.patch{
+  border:2px solid;
+  height:100px;
+  width:20%;
+  float:left;
+  display:inline-block;
+  cursor:pointer;
+  box-sizing: border-box;
+  margin:10px 0px;
+}
+.patch.active{
+  box-shadow:0px 2px 3px #000;
+}
+.color-red{
+  background-color:red;
+}
 
 
 
