@@ -14,12 +14,84 @@
     width:50px;
   }
 
-
-  .shellmatchimg{
-    border: 15px solid #db9a9a;
-    float: right;
-    margin-right: 100px;
-    margin-top: 50px;
-  }
+.gerry {
+  float: right;
+  width: 340px;
+  margin-top: 30px;
+  margin-right: 50px;
   
+}
+
+.incommon {
+  margin-left: 30px;
+  background-color: rgb(159, 140, 161);
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  font-weight: 200;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 500px;
+  height:230px;
+}
+
+.bestattributes {
+  margin-left: 30px;
+  background-color: rgb(159, 140, 161);
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  font-weight: 200;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 500px;
+  height:270px;
+}
+
+.favquote {
+  margin-left: 30px;
+  background-color: rgb(159, 140, 161);
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  font-weight: 200;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 500px;
+  height:130px;
+}
+
+.emojis {
+  height:280px;
+  width:300px;
+  background-color:lightblue;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  margin-left: 830px;
+  margin-top: -300px;
+}
+
+.briefbio {
+height: 100px;
+width:700px;
+background-color:lightblue;
+margin-right: 30px;
+float: right;
+margin-top: -300px;
+}
+
+
+
+
+
+
+ 
+
+ 
+
+
  
