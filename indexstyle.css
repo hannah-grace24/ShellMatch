@@ -2,16 +2,18 @@
 .title {
     text-align:center;
     font-family:Ink Free;
-    background-color:#c4b0b0;
-    font: size 400px;
+    background-color:#BA9785;
+    font-size: 40px;
     font-weight: bolder;
+    height:80px;
+    padding: 20px;
 }
 .navbar {
-  background-color:#c4b0b0;
+  background-color: #AA9183;
 }
 button {
   border-radius:8px;
-  border-color: #C3A5A2;
+  border-color: #AA9183;
   height:50px;
   width:150px;
 }
@@ -24,18 +26,33 @@ button {
   font-size: large;
 }
 .comment{
-  background-color: #c4b0b0;
+  color: white;
   height:250px;
   width:300px;
   font-size: 20px;
   text-align: center;
+  border-radius: 5px;
+  
 }
 .about-us1 {
-  background-color: #c4b0b0;
+  background-color: #A17A69;
+  color:white;
+  border-radius: 5px;
 
 }
+.gerald {
+  height:250px;
+  width:300px;
+  border-radius: 5px;
+}
+
 .our-mission1 {
-  background-color: #c4b0b0;
+  background-color: #A17A69;
+  color:white;
+  border-radius: 5px;
+}
+.commentc {
+  background-color: #BA9785;
 }
 .image-center {
             display:block;
@@ -64,18 +81,17 @@ button {
 .jane {
   height:250px;
   width:300px;
-}
-.gerald-pic {
-  height:250px;
-  width:300px;
+  border-radius: 5px;
 }
 .lucy {
   height:250px;
   width:300px;
+  border-radius: 5px;
 }
 .nick {
   height:250px;
   width:300px;
+  border-radius: 5px;
 }
 .jane-container {
   margin-right: 100px;
@@ -101,11 +117,13 @@ h3 {
   width:300px;
  }
 .hero-image {
-  background-color: #c4b0b0;
+  background-color: #C4A494;
   text-align:center;
 }
 .hero-text {
   font-size:x-large;
+  margin-top: 30px;
+  color:white
 }
 .hero-title {
   font-size:xx-large;
@@ -133,6 +151,6 @@ body {
   background-image: url(img/background.png);
 }
 .carousel {
-  background-color: #C3A5A2;
-  padding-top: 15px;
+  background-color: #C4A494;
+  padding: 15px;
 }
