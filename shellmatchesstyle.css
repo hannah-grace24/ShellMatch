@@ -139,17 +139,8 @@ color: rgb(255, 255, 255);
   border: 10px solid rgb(128, 128, 128);
 }
 
-.fa {
-  font-size: 50px;
-  cursor: pointer;
-  user-select: none;
-  color: rgb(0, 255, 55);
 
-}
 
-.fa:active {
-  color: rgb(255, 57, 50);
-}
 
 
 .chatbtn {
@@ -159,9 +150,6 @@ color: rgb(255, 255, 255);
 }
 
 
-.checked {
-  color: rgb(251, 255, 0);
-}
 
 .nextsc {
 font-size: medium;
@@ -182,11 +170,22 @@ margin-right: 30px;
   font-size: 20px;
 }
 
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  color: rgb(0, 255, 55);
+
+}
+
+.fa:active {
+  color: rgb(255, 57, 50);
+}
 
 
-
-
-
+.checked {
+  color: rgb(251, 255, 0);
+}
 
 
  
