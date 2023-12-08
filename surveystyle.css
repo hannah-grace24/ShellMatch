@@ -15,6 +15,7 @@
 }
 
 
+
 /* start of survey*/               
 
 .nav-link {
@@ -48,10 +49,18 @@
   background-color: gray;
   height:300px;
  } 
-.intro{
-    background-color: rgb(147, 170, 194);
+#introsay{
+    background-color: rgb(181, 204, 230);
     color:white;
-    padding: 15px;
+    padding-left: 45px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 1200px;
+    padding-right: 45px;
+    margin-top: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
 }            
   
 .clickon{
@@ -115,214 +124,48 @@ button.button1:active {
 
 
 
-*
-  box-sizing border-box
-
-body
-  min-height 100vh
-  display flex
-  align-items center
-  justify-content center
-  background hsl(0, 0%, 98%)
-
-  & > * + *
-    margin-right 24px
-
-:root
-  --transition 0.3
-  --heart-fill hsl(10, 80%, 50%)
-
-.heart
-  height 100%
-  width 100%
-  position absolute
-
-  &--stroke
-    stroke var(--heart-stroke)
-    stroke-width 2.5px
-    fill none
-
-  &--fill
-    stroke none
-    fill var(--heart-fill)
-    transform scale(var(--scale, 0))
-
-  &__particle
-    height 16px
-    width 16px
-    position absolute
-    top 50%
-    left 50%
-    border-radius 50%
-    background 'hsl(%s, 80%, 70%)' % var(--h)
-    transform translate(-50%, -50%) rotate(calc(var(--r, 0) * 1deg)) translate(0, calc(var(--radius, 0) * 1px)) scale(0)
 
 
-.button
-  height 40px
-  border 0
-  cursor pointer
-  border-radius 6px
-  position relative
-  display flex
-  align-items center
-  justify-content center
-  width 100px
-  font-family sans-serif
-  text-align left
-  outline transparent
-  color var(--stroke)
-  background var(--fill)
-  background 'hsl(%s, %s, %s)' % (var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 1%))
-  box-shadow 2px 4px 4px hsla(0, 0%, 10%, 0.5)
-  transition box-shadow 0.2s, background 0.2s
-
-  &--primary
-    --hue 260
-    --saturation 50
-    --lightness 20
-    --stroke hsl(0, 0%, 100%)
-    --heart-stroke hsl(0, 0%, 100%)
-    margin-right 24px
-
-  &--secondary
-    --hue 0
-    --saturation 0
-    --lightness 100
-    --stroke hsl(0, 0%, 40%)
-    --heart-stroke hsl(0, 0%, 60%)
 
 
-  &__text
-    margin-right 6px
-    opacity var(--opacity)
-
-  &__icon
-    position relative
-    height 24px
-    width 24px
-
-  &:hover
-    --scale 0.3
-    background 'hsl(%s, %s, %s)' % (var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 0.96%))
-    box-shadow 2px 2px 4px hsla(0, 0%, 10%, 0.5)
-    .heart--fill
-      transition transform calc(var(--transition) * 1s) cubic-bezier(.7,.9,.6,2.5)
-
-  &:active
-    background 'hsl(%s, %s, %s)' % (var(--hue) calc(var(--saturation) * 1%) calc(var(--lightness) * 0.92%))
-    box-shadow 0 0 0 hsla(0, 0%, 10%, 0.5)
-
-  &--active
-  &--active:hover
-    --scale 0.94
-    --opacity 0.25
 
 
-    .heart--fill
-      transition transform calc(var(--transition) * 1s) cubic-bezier(.7,.9,.6,2.5)
 
-    .button__text
-      transition opacity 0.1s
 
-    .heart__particle
-      opacity 0
-      transform translate(-50%, -50%) rotate(calc(var(--r, 0) * 1deg)) translate(0, calc(var(--d, 0) * 1px)) scale(var(--s))
-      transition transform calc(var(--t) * 1.25s) calc(var(--transition) * 0.5s), opacity calc(var(--transition) * 0.25s) calc(var(--t) * 1.25s)
+.button {
 
-.button2 {
-    --light: #fff;
-    --dark: #414856;
-    --border: #C3C8DE;
-    --background: #4F29F0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border: 0;
-    padding: 0 30px;
-    width: auto;
-    height: 60px;
-    border-radius: 2px;
-    border: 1px solid var(--border);
-    background: none;
-    color: var(--dark);
-    cursor: pointer;
-    outline: none;
-    box-shadow: 0 10px 30px rgba(#414856, 0.1);
-    transition: transform .1s linear,
-      color: .1s linear,
-      background-color: .15s linear;
-    cursor: none;
-    > span {
-      display: inline-block;
-      position: relative;
-      z-index: 2;
-      font: 400 16px 'Varela Round', sans-serif;
-      transition: transform .15s linear;
-    }
-    &.fill {
-      border: 0;
-      color: var(--light);
-      background: var(--background);
-    }
-  }
+height: 40px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  font-family: sans-serif;
+  text-align: left;
+  outline: transparent;
+  color: var(--stroke);
+  background: var(--fill);
   
-  .cursor {
-    --cursor: #C3C8DE;
-    position: fixed;
-    top: -50px;
-    z-index: 99;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: none;
-    border: solid 2px var(--cursor);
-    pointer-events: none;
-    transition: transform .3s ease,
-      background .3s ease,
-      border-color .3s ease;
-  }
-  [cursor="link"] {
-    &:hover {
-      ~ .cursor {
-        mix-blend-mode: difference;
-        transform: scale(1.5);
-        cursor: none;
-        background: #fff;
-        border-color: #fff;
-      }
-    }
-  }
+
+
+
+
+
+}
+
+#thisorthat {
+  width: 450px;
+  height: 450px;
+  background-color:peachpuff;
+  float: right;
+  margin-right: 400px;
+}
+
   
+
   
-  //--- ## BASIC #############
-  body {
-    background: #E8EBF3;
-    height: 100vh;
-    font: 400 16px 'Varela Round', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .button {
-      margin: 0 10px;
-    }
-    .socials {
-      position: fixed;
-      display: block;
-      left: 20px;
-      bottom: 20px;
-      > a {
-        display: block;
-        width: 30px;
-        opacity: .2;
-        transform: scale(var(--scale, .8));
-        transition: transform .3s cubic-bezier(0.38,-0.12, 0.24, 1.91);
-        &:hover {
-          --scale: 1;
-        }
-      }
-    }
-  }
 
   /*end of survey*/

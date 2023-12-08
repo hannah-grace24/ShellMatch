@@ -3,17 +3,83 @@
     text-align:center;
     font-family:Ink Free;
     background-color:#C3A5A2;
+    font: size 400px;
 }
 .navbar {
     background-color: #C3A5A2;
-  }
-  .title {
-    font: size 400px;
-  }
-  .snail {
+}    
+.snail {
     height:50px;
     width:50px;
-  }
+}
+
+/*login*/
+.button {
+  padding: 4px 24px;
+  border: 2px solid #000000;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:active{
+  transform: scale(0.98);
+}
+
+.form-container{
+  position: absolute;
+  max-width: 320px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: rgba(0,0,0,0.1);
+}
+
+.form-close{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color:#0b0217;
+  font-size: 22px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form-container h2{
+  font-size: 22px;
+  color: #0b0217;
+  text-align: center;
+}
+
+/* 12:16 in https://www.youtube.com/watch?v=etsPyHLON7g*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*start of profile*/
