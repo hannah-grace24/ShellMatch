@@ -17,7 +17,10 @@
 
 /* start of survey*/               
 
-             
+.nav-link {
+  color: black;
+  
+}           
                 
 .btn-btn-info {
     margin: 0;
@@ -83,8 +86,7 @@ button.button1:active{
 button.button1:active {
     animation: changecolors .5s forwards;
 }
-  
-  
+
   
   
 .button2{

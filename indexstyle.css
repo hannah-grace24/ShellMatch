@@ -129,3 +129,10 @@ h3 {
 .hero-image {
   height:250px;
 }
+body {
+  background-image: url(img/background.png);
+}
+.carousel {
+  background-color: #C3A5A2;
+  padding-top: 15px;
+}
