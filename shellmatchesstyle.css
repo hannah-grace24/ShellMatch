@@ -182,7 +182,26 @@ margin-right: 30px;
   background-color: #c4a494;
 }
 
- 
+*{
+  margin:0;
+  padding:0;
+ }
+
+ .btns{
+  position: absolute;
+  top: 216px;
+  left: 328px;
+  display: flex;
+ }
+
+ .btn{
+  background: transparent;
+  border: none;
+  margin: 87px;
+  font-size: 88px;
+  outline: none;
+  color: grey;
+ }
 
  
 

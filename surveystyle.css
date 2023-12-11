@@ -166,30 +166,23 @@ height: 40px;
     width: 650px;
     height: 400px;
     padding-top: 100px;
+    
 }
 
 .buttonbox {
     color: black;
+    width: 600px;
+    height: 400px;
     
 }
 
-#biggerbtn {
-    width: 660px;
-    height: 660px;
-    background-color: rgb(224, 146, 146);
-    margin-top: 100px;
-}
 
 
-.fa {
-    font-size: 50px;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .fa:hover {
-    color: darkblue;
-  }
+
+
+
+
+
 
   
 
