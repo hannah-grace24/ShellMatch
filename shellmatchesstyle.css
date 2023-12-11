@@ -170,22 +170,14 @@ margin-right: 30px;
   font-size: 20px;
 }
 
-.fa {
-  font-size: 50px;
-  cursor: pointer;
-  user-select: none;
-  color: rgb(0, 255, 55);
 
-}
-
-.fa:active {
-  color: rgb(255, 57, 50);
-}
 
 
 .checked {
   color: rgb(251, 255, 0);
 }
+
+
 #footer {
   background-color: #c4a494;
 }

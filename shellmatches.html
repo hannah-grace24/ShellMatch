@@ -14,11 +14,26 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="shellmatchesstyle.css">
 
+  <script src="https://kit.fontawesome.com/f6dcf461c1.js"
+  crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
+  <style>
+    .fa {
+      font-size: 50px;
+      cursor: pointer;
+      user-select: none;
+      color: green;
+    }
+    
+    .fa:hover {
+      color: darkblue;
+    }
+    </style>
   
   
 </head>
@@ -145,8 +160,20 @@
 
       
     </div>
+
+    <Button id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></Button>
+    <Button id="btnh2" class="btn"><i class="fa-regular fa-heart"></i></Button>
+    <Button id="btnh3" class="btn"><i class="fa-solid fa-heart-circle-check"></i></Button>
+
+
     
-    <div class="chatbtn"><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+   <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i> 
+   <script>
+    function myFunction(this) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+    </script>
+   <div class="chatbtn">
       <button> <a href="slowchat.html">Chat &#128172;</a></button></div>
   </div>
 
@@ -174,7 +201,7 @@
       </div>
 
     </div>
-    <div class="chatbtn"><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    <div class="chatbtn"><i onclick="myFunction(this)" class="fa fa-thumbs-up"i></i>
       <button> <a href="slowchat.html">Chat &#128172;</a></button></div>
   </div>
   </div>
@@ -288,9 +315,6 @@
   </nav>
  
   <script>
-    function myFunction(x) {
-      x.classList.toggle("fa-thumbs-down");
-    }
 
     function myFunction() {
   document.getElementById("demo").innerHTML = "We have recieved your survey response! Give our experts 3-5 business days to evaluate your responses and provide you with the best matches!";
