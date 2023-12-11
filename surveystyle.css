@@ -48,6 +48,7 @@
  #buttonbox {
   background-color: gray;
   height:300px;
+  align-items: center;
  } 
 #introsay{
     background-color: rgb(181, 204, 230);
@@ -65,20 +66,21 @@
   
 .clickon{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;    
-    text-align: center;                        
+    text-decoration: underline;            
+    margin-top: 800px;                
 }
   
 #mytable{
     background-color:pink;
+    margin-top: 600px;
 }
   
 .button1{
     border-radius: 50%;
     background-color: black;
     color: aliceblue;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     align-items: center;
 }
   
@@ -104,7 +106,8 @@ button.button1:active {
     width: 200px;
      height: 100px;
     padding: 20px;
-    font-size: large;             
+    font-size: large;  
+    align-items: center;           
 }
   
 .button3{
@@ -113,7 +116,7 @@ button.button1:active {
     width: 200px;
     height: 100px;
     padding: 20px;
-    font-size: large;
+ 
 }
   
 .tottitle{
@@ -124,8 +127,13 @@ button.button1:active {
 
 
 
-
-
+#thisorthat {
+  width: 450px;
+  height: 600px;
+  background-color:peachpuff; 
+  margin-left: 1200px;
+  margin-top: 100px;
+}
 
 
 
@@ -148,23 +156,34 @@ height: 40px;
   outline: transparent;
   color: var(--stroke);
   background: var(--fill);
-  
-
-
 
 
 
 }
 
-#thisorthat {
-  width: 450px;
-  height: 450px;
-  background-color:peachpuff;
-  float: right;
-  margin-right: 400px;
+#buttonbox {
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 400px;
+    padding-top: 100px;
 }
 
-  
+.buttonbox {
+    color: black;
+    
+}
+
+#biggerbtn {
+    width: 660px;
+    height: 660px;
+    background-color: rgb(224, 146, 146);
+    margin-top: 100px;
+}
+
+
+.pic {
+    
+}
 
   
 
