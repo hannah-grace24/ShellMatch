@@ -35,6 +35,7 @@
   .snail {
     height:50px;
     width:50px;
+    border-radius: 0%
   }
 
 /*↓ ↓ Message Box↓ ↓ ↓*/
@@ -326,4 +327,3 @@ hr{
 .social1{
     margin-right: 30px
 }
-

@@ -186,7 +186,9 @@ margin-right: 30px;
 .checked {
   color: rgb(251, 255, 0);
 }
-
+#footer {
+  background-color: #c4a494;
+}
 
  
 
