@@ -1,7 +1,8 @@
 .title {
     text-align:center;
     font-family:Ink Free;
-    background-color:#C3A5A2;
+    background-color:#C3A5A2; 
+    font: size 400px;
 }
 
 
@@ -10,26 +11,28 @@
   background-color: #C3A5A2;
   color:black;
 }
-.title {
-  font: size 400px;
-}
+
 .snail {
   height:50px;
   width:50px;
   border-radius: 0%
 }
 .gerry {
-  width: 240px;
-  margin-top: 30px;
-  margin-right: 50px;
+  width: 340px;
+  margin-top: 300px;
   border-style: double;
   border-color:#C3A5A2;
   border-width: 20px;
+  float: right;
+  margin-right: -1300px;
+  
+  
   
 }
 
 #incommon {
   background-color: rgb(152, 202, 248);
+  float: left;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -41,6 +44,9 @@
   height: 270px;
   color: white;
   border: 10px solid #c4b0b0;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 100px;
 }
 
 #bestattributes {
@@ -56,6 +62,9 @@
   height:270px;
   color: white;
   border: 10px solid #c4b0b0;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 100px;
 }
 
 #favquote {
@@ -71,7 +80,11 @@
   height:130px;
   color: white;
   border: 10px solid #c4b0b0;
+  position: relative;
+  margin-top: -140px;
+  margin-left: 100px;
 }
+
 
 .emojis {
   height:280px;
@@ -80,11 +93,12 @@
   font-size: 30px;
   text-align: center;
   position: relative;
-  margin-left: 700px;
-  margin-top: -400px;
+  margin-left: 500px;
+  margin-top: 100px;
   border-style: dotted dashed solid double;
   border-color:rgb(95, 129, 160);
   border-width: 8px;
+  margin-left: 300px;
 
   
 }
@@ -113,11 +127,13 @@ color: rgb(255, 255, 255);
   width: 800px;
   height: 200px;
   margin-top: 30px;
-  margin-right: 450px;
+  margin-left: 600px;
   font-size: 30px;
   padding-top: 30px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+ 
 }
 
 #match1{
