@@ -1,5 +1,5 @@
 /*start of index*/
-.title {
+.reviewt {
     text-align:center;
     font-family:Ink Free;
     background-color:#BA9785;
@@ -9,17 +9,21 @@
     padding: 20px;
 }
 .navbar {
-  background-color: #c4a494;
+  background-color: #C3A5A2;
+}
+.title {
+  font: size 400px;
+}
+.snail {
+  height:50px;
+  width:50px;
+  border-radius: 0%
 }
 button {
   border-radius:8px;
   border-color: #AA9183;
   height:50px;
   width:150px;
-}
-.snail {
-  height:50px;
-  width:50px;
 }
 .goal-mission {
   text-align:center;

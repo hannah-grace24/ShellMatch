@@ -6,12 +6,8 @@
   font: size 400px;
 }
 
-.a{
-  text-decoration: none;
-}
 
 .header{
-  position: fixed;
   height: 80px;
   width: 100%;
   z-index: 100;
@@ -30,6 +26,13 @@
   height: 100%;
   align-items: 100%;
   justify-content: space-between;
+}
+
+.nav-item{
+  column-gap: 25px;
+}
+.nav-link{
+  text-decoration: none;
 }
 .snail {
   height:50px;
