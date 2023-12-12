@@ -1,16 +1,39 @@
 
 .title {
-    text-align:center;
-    font-family:Ink Free;
-    background-color:#C3A5A2;
-    font: size 400px;
+  text-align:center;
+  font-family:Ink Free;
+  background-color:#C3A5A2;
+  font: size 400px;
 }
-.navbar {
-    background-color: #C3A5A2;
+
+.a{
+  text-decoration: none;
+}
+
+.header{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+  padding: 0 20px;
+}
+
+.navbar{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #C3A5A2;
 }    
+
+.navbar, .nav-item{
+  display: flex;
+  height: 100%;
+  align-items: 100%;
+  justify-content: space-between;
+}
 .snail {
-    height:50px;
-    width:50px;
+  height:50px;
+  width:50px;
 }
 
 /*begining of login box*/
