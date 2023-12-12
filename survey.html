@@ -3,6 +3,7 @@
   <head>
     <title>ShellMatch</title>
     
+    
       <meta charset="UTF-8">
       <title>Survey</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -17,6 +18,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
   </head>
   <body style="background-color:rgb(255, 242, 227)">
@@ -67,11 +72,11 @@
       <button type="button" class="button1">10</button>
     </div>
   </div>
-
+ <h2 class="tottitle">This or That?</h2>
     <div class="container2">
       <div class="row">
         <div id="thisorthat">
-          <h2 class="tottitle">This or That?</h2>
+         
           <div class="btn-group">
             <button type="button" class="button2">Stay In</button>
             <button type="button" class="button3">Go Out</button>
@@ -184,13 +189,18 @@
       </table>
     </div>
     <br>
-
-
-    </body>
-    </html>
+    <button class="submitbtn" onclick="myFunction()">Submit Survey</button>
     <script>
+
+      function myFunction() {
+    document.getElementById("demo").innerHTML = "We have recieved your survey response! Give our experts 3-5 business days to evaluate your responses and provide you with the best matches!";
+  }
+    
+    
 
 function myFunction(x) {
   x.classList.toggle("fa-thumbs-down");
 }
 </script>
+</body>
+    </html>
