@@ -8,6 +8,7 @@
 
 .navbar {
   background-color: #C3A5A2;
+  color:black;
 }
 .title {
   font: size 400px;
@@ -18,8 +19,7 @@
   border-radius: 0%
 }
 .gerry {
-  float: right;
-  width: 340px;
+  width: 240px;
   margin-top: 30px;
   margin-right: 50px;
   border-style: double;
@@ -29,8 +29,6 @@
 }
 
 #incommon {
-  margin-top: -200px;
-  margin-left: 30px;
   background-color: rgb(152, 202, 248);
   padding-left: 30px;
   padding-top: 10px;
@@ -46,7 +44,6 @@
 }
 
 #bestattributes {
-  margin-left: 30px;
   background-color:rgb(152, 202, 248);
   padding-left: 30px;
   padding-top: 10px;
@@ -62,7 +59,6 @@
 }
 
 #favquote {
-  margin-left: 30px;
   background-color: rgb(152, 202, 248);
   padding-left: 30px;
   padding-top: 8px;
@@ -113,7 +109,6 @@ color: rgb(255, 255, 255);
 
 
 #firstrating{
-  position: relative;
   background-color: lightgrey;
   width: 800px;
   height: 200px;
@@ -202,8 +197,12 @@ margin-right: 30px;
   outline: none;
   color: grey;
  }
-
- 
+ #yellow-star {
+  color:yellow;
+ }
+ #black-star {
+  color:black;
+ }
 
 
  

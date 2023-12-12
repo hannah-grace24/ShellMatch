@@ -14,15 +14,12 @@
   width:50px;
   border-radius: 0%
 }
+.nav-item {
+  color:black;
+}
 
 
-
-/* start of survey*/               
-
-.nav-link {
-  color: black;
-  
-}           
+/* start of survey*/                         
                 
 .btn-btn-info {
     margin: 0;
@@ -135,34 +132,13 @@ button.button1:active {
   height: 600px;
   background-color:peachpuff; 
   margin-left: 1200px;
-  margin-top: -300px;
+  margin-top: 100px;
 }
 
 
 
 
 
-
-.button {
-
-height: 40px;
-  border: 0;
-  cursor: pointer;
-  border-radius: 6px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  font-family: sans-serif;
-  text-align: left;
-  outline: transparent;
-  color: var(--stroke);
-  background: var(--fill);
-
-
-
-}
 
 #buttonbox {
     background-color: rgb(255, 255, 255);
@@ -179,7 +155,6 @@ height: 40px;
     width: 500px;
     height: 400px;
     font-size: 35px;
-    
 }
 
 .submitbtn {
@@ -191,23 +166,18 @@ height: 40px;
     margin-top: -330px;
   }
 
-  .tottitle
-
-
-div.absolute{
-    position: absolute;
-    left: 110px;
-    top: 650px;
-}
 
 
 .pic {
-   
-    margin-left: 600px;
+  margin-left: 600px;
 }
 
-
+div.absolute{
+  position: absolute;
+  left: 110px;
+  top: 650px;
+}
 
   
 
-  /*end of survey*/
+  /*end of survey

@@ -1,4 +1,4 @@
-
+/*begining of navbar/header css*/
 .title {
   text-align:center;
   font-family:Ink Free;
@@ -8,14 +8,14 @@
 
 
 .header{
-  height: 80px;
-  width: 100%;
+  height: 150px;
   z-index: 100;
   padding: 0 20px;
+  font-family:sans-serif;
 }
 
 .navbar{
-  max-width: 1100px;
+  max-width: 2000px;
   width: 100%;
   margin: 0 auto;
   background-color: #C3A5A2;
@@ -24,7 +24,7 @@
 .navbar, .nav-item{
   display: flex;
   height: 100%;
-  align-items: 100%;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -33,19 +33,23 @@
 }
 .nav-link{
   text-decoration: none;
+  color: #000000;
 }
 .snail {
-  height:50px;
-  width:50px;
+  height:80px;
+  width:80px;
+  margin-left: 30px;
 }
+/*end of navbar/header css*/
 
-/*begining of login box*/
+/*begining of signin box*/
 .button {
   padding: 4px 24px;
   border: 2px solid #000000;
   background: transparent;
   border-radius: 6px;
   cursor: pointer;
+  margin-right: 50px;
 }
 
 .button:active{
@@ -215,34 +219,7 @@
   margin-top: 15px;
 }
 
-
-
-
-
-/* 33.34 in https://www.youtube.com/watch?v=etsPyHLON7g*/ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* end of signin/up box. source -> https://www.youtube.com/watch?v=etsPyHLON7g*/ 
 
 
 /*start of profile*/
