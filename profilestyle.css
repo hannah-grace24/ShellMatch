@@ -1,16 +1,39 @@
 
 .title {
-    text-align:center;
-    font-family:Ink Free;
-    background-color:#C3A5A2;
-    font: size 400px;
+  text-align:center;
+  font-family:Ink Free;
+  background-color:#C3A5A2;
+  font: size 400px;
 }
-.navbar {
-    background-color: #C3A5A2;
+
+.a{
+  text-decoration: none;
+}
+
+.header{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+  padding: 0 20px;
+}
+
+.navbar{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #C3A5A2;
 }    
+
+.navbar, .nav-item{
+  display: flex;
+  height: 100%;
+  align-items: 100%;
+  justify-content: space-between;
+}
 .snail {
-    height:50px;
-    width:50px;
+  height:50px;
+  width:50px;
 }
 
 /*begining of login box*/
@@ -24,6 +47,29 @@
 
 .button:active{
   transform: scale(0.98);
+}
+
+.home{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.home::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease-out;
+}
+
+.home.show::before{
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .form-container{
@@ -50,6 +96,14 @@
 
 .signup-form{
   display: none;
+}
+
+.form-container.active .signup-form{
+  display:block;
+}
+
+.form-container.active .signin-form{
+  display:none;
 }
 
 .form-close{
@@ -108,6 +162,7 @@
 .input-box i.pw-hide {
   right: 0;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .option-field{
@@ -161,7 +216,7 @@
 
 
 
-/* 27.05 in https://www.youtube.com/watch?v=etsPyHLON7g*/ 
+/* 33.34 in https://www.youtube.com/watch?v=etsPyHLON7g*/ 
 
 
 

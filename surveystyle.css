@@ -120,9 +120,11 @@ button.button1:active {
 }
   
 .tottitle{
-    font-family: brushscriptm7;
-    color: dimgray;
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-left: 1150px;
+    margin-top: -80px;
 }  
 
 
@@ -179,6 +181,16 @@ height: 40px;
     
 }
 
+.submitbtn {
+    background-color: chartreuse;
+    font-size: 20px;
+  }
+
+  .container2 {
+    margin-top: -330px;
+  }
+
+  .tottitle
 
 
 div.absolute{
@@ -188,8 +200,10 @@ div.absolute{
 }
 
 
-
-
+.pic {
+   
+    margin-left: 600px;
+}
 
 
 
