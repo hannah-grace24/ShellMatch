@@ -6,7 +6,9 @@
   font: size 400px;
 }
 
-
+body {
+  background-color:rgb(237, 255, 255);
+}
 .header{
   height: 150px;
   z-index: 100;
@@ -225,15 +227,22 @@
 /*start of profile*/
 .profile-title {
     text-align: center;
+    font-family: 'Brush Script MT, Brush Script Std, cursive';
+    font-size: 50px;
 }
 
 .profile-item  {
     Background-color:#DDB9B1;
+    width: 1200px;
+    height:30px;
+    
 }
 
 .profile-snail{
     width:300px;
     height:250px;
+    border-color:#C3A5A2;
+    border-width: 20px;
 }
 
 .comment {
@@ -260,3 +269,30 @@
   .container {
     padding: 2px 16px;
   }
+
+  .home {
+    margin-top: -900px;
+  }
+
+  #profilelook {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(134, 196, 196);
+    color: #fff;
+    font-size: 35px;
+    position: relative;
+    margin-top: -500px;
+    float: right;
+    margin-right: 50px;
+  }
+
+  #profilequestions {
+    margin-left: 400px;
+  }
+
+ #profilesurvey {
+  margin-top: -400px;
+  float: right;
+ }
+
+
