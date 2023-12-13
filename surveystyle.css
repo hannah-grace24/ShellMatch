@@ -47,6 +47,9 @@
   background-color: gray;
   height:300px;
   align-items: center;
+  border-style: dashed; 
+  border-color: #C3A5A2; 
+  border-width: 10px;
  } 
 #introsay{
     background-color: rgb(181, 204, 230);
@@ -65,40 +68,38 @@
 .clickon{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;            
-    margin-top: 800px;                
+    margin-top: 60px;        
+    text-align: right;        
 }
   
 #mytable{
     background-color:pink;
-    margin-top: 600px;
+    margin-top: 65px;
+
 }
   
-.button1{
+.btnn{
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(255, 152, 152);
     color: aliceblue;
     width: 45px;
     height: 45px;
     margin-top: 10px;
+   
 }
   
-button.button1:hover{
-    color: black;
-    background-color: #DDB9B1;
-}
-  
-button.button1:active{
-   background-color: white;
+
+.active, .btn:hover {
+   background-color: #b47474;
    color: black;
 }
   
-button.button1:active {
-    animation: changecolors .5s forwards;
-}
 
   
   
-.button2{
+
+  
+.special{
     background-color: rosybrown;
     color: black;
     width: 200px;
@@ -116,28 +117,41 @@ button.button1:active {
     padding: 20px;
  
 }
+#totbtn {
+    background-color: rgb(236, 211, 211);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    
+
+}
+
+
   
 .tottitle{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: rgb(0, 0, 0);
-    margin-left: 1150px;
-    margin-top: -80px;
+    margin-left: 1290px;
+    margin-top: -300px;
 }  
 
 
 
 #thisorthat {
   width: 450px;
-  height: 600px;
-  background-color:peachpuff; 
-  margin-left: 1200px;
-  margin-top: 100px;
+  height: 330px;
+  background-color:rgb(124, 119, 126); 
+  margin-left: 1250px;
+  margin-top: 350px;
+  padding: 20px;
 }
 
 
 
-
+#googledoc {
+    float: left;
+    margin-top: 100px;
+}
 
 
 #buttonbox {
@@ -169,7 +183,15 @@ button.button1:active {
 
 
 .pic {
-  margin-left: 600px;
+  margin-left: 200px;
+  border-style: dashed; 
+  border-color: #C3A5A2; 
+  border-width: 10px;
+  margin-top: 30px;
+  width: 400px;
+  float: right;
+  margin-right: 200px;
+  
 }
 
 div.absolute{

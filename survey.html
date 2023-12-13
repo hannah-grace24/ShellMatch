@@ -8,6 +8,7 @@
       <title>Survey</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="stylesheet" href="surveystyle.css">
+      <script defer src="script.js"></script>
 
       <!-- Bootstrap CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -24,7 +25,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
   </head>
-  <body style="background-color:rgb(255, 242, 227)">
+  <body style="background-color:rgb(227, 253, 255)">
     <h1 class="title">ShellMatch</h1>
     <nav class="navbar navbar-expand">
       <div class="container">
@@ -60,56 +61,78 @@
       <div class="relative">
         <p class="buttonbox">On a snail scale of 1-10, how determined are you to find love?</p>
         <div class="absolute">
-          <button type="button" class="button1">1</button>
-          <button type="button" class="button1" >2</button>
-          <button type="button" class="button1">3</button>
-          <button type="button" class="button1">4</button>
-          <button type="button" class="button1">5</button>
-          <button type="button" class="button1">6</button>
-          <button type="button" class="button1">7</button>
-          <button type="button" class="button1">8</button>
-          <button type="button" class="button1">9</button>
-          <button type="button" class="button1">10</button>
+          <button type="button" class="btn active">1</button>
+          <button type="button" class="btn active">2</button>
+          <button type="button" class="btn active">3</button>
+          <button type="button" class="btn active">4</button>
+          <button type="button" class="btn active">5</button>
+          <button type="button" class="btn active">6</button>
+          <button type="button" class="btn active">7</button>
+          <button type="button" class="btn active">8</button>
+          <button type="button" class="btn active">9</button>
+          <button type="button" class="btn active">10</button>
         </div>
       </div>
     </div>
   </div>
+
+<script>
+  var header = document.getElementById("mydiv");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++){
+  btns[i].addEventListener("click", function (){
+    var current =
+    document.getElementsByClassName("active");
+    current[0].className
+    current[0].className.replace("active", "");
+    this.className += "active";
+  });
+}
+</script>
  <h2 class="tottitle">This or That?</h2>
     <div class="container2">
       <div class="row">
         <div id="thisorthat">
          
           <div class="btn-group">
-            <button type="button" class="button2">Stay In</button>
-            <button type="button" class="button3">Go Out</button>
+            <button type="button" class="btn" id="totbtn">Stay In</button>
+            <button type="button" class="btn" id="totbtn">Go Out</button>
           </div>
           <br>
-          <div class="btn-group">
-            <button type="button" class="button2">Dogs</button>
-            <button type="button" class="button3">Cats</button>
-          </div>
           <br>
           <div class="btn-group">
-            <button type="button" class="button2">Sweet</button>
-            <button type="button" class="button3">Savory</button>
+            <button type="button" class="btn" id="totbtn">Dogs</button>
+            <button type="button" class="btn" id="totbtn">Cats</button>
           </div>
           <br>
-          <div class="btn-group">
-            <button type="button" class="button2">Read</button>
-            <button type="button" class="button3">Watch Movies</button>
-          </div>
           <br>
           <div class="btn-group">
-            <button type="button" class="button2">Morning Person</button>
-            <button type="button" class="button3">Night Owl</button>
+            <button type="button" class="btn" id="totbtn">Sweet</button>
+            <button type="button" class="btn" id="totbtn">Savory</button>
+          </div>
+          <br>
+          <br>
+          <div class="btn-group">
+            <button type="button" class="btn" id="totbtn">Read</button>
+            <button type="button" class="btn" id="totbtn">Watch Movies</button>
+          </div>
+          <br>
+          <br>
+          <div class="btn-group">
+            <button type="button" class="btn" id="totbtn">Morning Person</button>
+            <button type="button" class="btn" id="totbtn">Night Owl</button>
           </div>
         </div>
         <div > <img class="pic" src="https://th.bing.com/th/id/OIP.A7sVZIbg-4T39zQmN6Ak5AHaHa?w=197&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7">
         <div class="container check-box col-6">
-          <h2 class="clickon">Click on the box that best describes you</h2>
+       
 
-          <table class="table table-bordered" id="mytable">
 
+          <div class=container ><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYMIl79Ms3ofFtRhdJLXntie3VG91G-__mdPE_yVlJVbXK3g/viewform?embedded=true" width="640" height="915" frameborder="0" marginheight="300" marginwidth="600">Loading…</iframe>
+          </div>
+
+   <h2 class="clickon">Click on the box that best describes you</h2>
+   <table class="table table-bordered" id="mytable">
         <thead>
           <tr>
             <th></th>
@@ -194,15 +217,6 @@
     <button class="submitbtn" onclick="myFunction()">Submit Survey</button>
     <script>
 
-      function myFunction() {
-    document.getElementById("demo").innerHTML = "We have recieved your survey response! Give our experts 3-5 business days to evaluate your responses and provide you with the best matches!";
-  }
-    
-    
-
-function myFunction(x) {
-  x.classList.toggle("fa-thumbs-down");
-}
 </script>
 </body>
     </html>

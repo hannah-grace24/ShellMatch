@@ -32,3 +32,26 @@ signinBtn.addEventListener("click", () =>  {
     formContainer.classList.remove("active");
 
 });
+
+
+const btnElList = document.querySelectorAll('.btn');
+btnElList.forEach(btnEl => {
+    btnEl.addEventListener('click', () => {
+        btnEl.classList.add('special');
+    });
+});
+
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "We have recieved your survey response! Give our experts 3-5 business days to evaluate your responses and provide you with the best matches!";
+  }
+    
+    
+
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+
+
+<script src="https://kit.fontawesome.com/f6dcf461c1.js"
+crossorigin="anonymous"></script>
