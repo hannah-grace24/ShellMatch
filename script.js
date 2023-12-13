@@ -44,7 +44,7 @@ btnElList.forEach(btnEl => {
 
 function myFunction() {
     document.getElementById("demo").innerHTML = "We have recieved your survey response! Give our experts 3-5 business days to evaluate your responses and provide you with the best matches!";
-  }
+}
     
     
 
